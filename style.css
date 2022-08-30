@@ -1,0 +1,25 @@
+body{
+    background-image:url("background.png");
+
+}
+h2{
+    font-size: 30px !important;
+}
+
+#snap:hover{
+    background-color: rgb(34, 255, 0);
+    outline: 20px;
+}
+
+canvas {
+    animation-name:yolo;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes yolo{
+    from{box-shadow: 1px 1px 38px rgb(255, 0, 0);}
+    to{box-shadow: 1px 1px 38px rgb(209, 0, 228);}
+}
+
+
